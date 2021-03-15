@@ -1,0 +1,30 @@
+Number,Name,Region,Type,Pokemon 1,Pokemon 2,Pokemon 3,Victory,Defeat
+1,Brock,Kanto,Pewter City Gym Leader,Kabutops,Golem,Onix,The best offense is a good defense! That's my way of doing things!,Your Pokémon's powerful attacks overcame my rock-hard resistance... You're stronger than I expected?
+2,Misty,Kanto,Cerulean City Gym Leader,Seadra,Golduck,Starmie,See! This is the Water-type toughness.,You really are good... I'll admit that you are skilled?
+3,Lt. Surge,Kanto,Vermillion City Gym Leader,Electrode,Magneton,Raichu,"Oh yeah! When it comes to Electric-type Pokémon, I'm number one in the world!","Now that's a shocker! You're the real deal, kid!"
+4,Erika,Kanto,Celadon City Gym Leader,Parasect,Victreebel,Vileplume,I feel inspired by my win. Fighting alongside your beloved Pokémon and winning. This is the joy of being a Pokémon Trainer.,Oh! I concede defeat... You are remarkably strong?
+5,Koga,Kanto,Fuchsia City Gym Leader,Venomoth,Weezing,Muk,You think you could defeat me? Hone your skills and try again.,Humph! You have proven your worth!
+6,Sabrina,Kanto,Saffron City Gym Leader,Mr. Mime,Hypno,Alakazam,Just as I foresaw!,I'm shocked! But a loss is a loss. I admit I didn't work hard enough to win!
+7,Blaine,Kanto,Cinnabar Island Gym Leader,Ninetales,Magmar,Arcanine,Whoa hey! I'm a raging inferno!,I have burned down to nothing! Not even ashes remain!
+8,Giovanni,Kanto,Viridian City Gym Leader,Nidoking,Nidoqueen,Rhydon,Ha! That was a truly intense fight!,Haarg! I lose?! There is nothing I wish to say to you!
+9,Lorelei,Kanto,Elite Four,Jynx,Cloyster,Dewgong,My ice is unstoppable.,...Things shouldn't be this way!
+10,Bruno,Kanto,Elite Four,Hitmonchan,Hitmonlee,Machamp,"You can challenge me all you like, but the results will never change!",Why? How could I lose?
+11,Agatha,Kanto,Elite Four,Golbat,Haunter,Gengar,"I may be old, but I am stronger than I look.","Oh, my! You're something special, child!"
+12,Lance,Kanto,Elite Four,Aerodactyl,Dragonair,Dragonite,"I never give up, no matter what. You must be the same?",I can't believe my dragons lost to you.
+13,Blue,Kanto,Champion,Pidgeot,Scyther,Blastoise,"This is what I, Kanto's top-level Trainer, can really do!",NO! That can't be! You beat my best! After all that work to become League champ?
+14,Red,Kanto,Pokémon Master,Lapras,Snorlax,Charizard,???,???
+15,Falkner,Johto,Violet City Gym Leader,Murkrow,Noctowl,Skarmory,Now you know the real power of bird Pokémon!,A defeat is a defeat. You are strong indeed. I'm going to train harder with my Pokémon to become the greatest Bird Keeper of all!
+16,Bugsy,Johto,Azalea Town Gym Leader,Ledian,Yanma,Ariados,I guess I'm done reporting my research findings!,"Whoa, amazing! You're an expert on Pokémon! My research isn't complete yet."
+17,Whitney,Johto,Goldenrod City Gym Leader,Furret,Blissey,Miltank,See? Didn't I tell ya? My Pokémon are really strong!,"Waaaaah! Waaaaah! ...Snivel, hic. ...You meanie! ... ... Ah, that was a good cry! I'm going to get even stronger and challenge this again!"
+18,Morty,Johto,Ecruteak City Gym Leader,Misdreavus,Crobat,Gengar,I moved...one step ahead again.,I don't think our potentials are so different. But you seem to have something... Something more than that..
+19,Chuck,Johto,Cianwood City Gym Leader,Heracross,Hitmontop,Hitmontop,See? My Pokémon were as strong as I said!,Hmm... I lost? How about that!
+20,Jasmine,Johto,Olivine City Gym Leader,Forretress,Scizor,Steelix,I'm glad... I won?,"...You are a better Trainer than me, in both skill and kindness. Um... I don't know how to say this, but good luck?"
+21,Pryce,Johto,Mahogany Town Gym Leader,Delibird,Sneasel,Piloswine,This is winter's harshness.,"I am impressed by your prowess. With your strong will, I know you will overcome all life's obstacles."
+22,Clair,Johto,Blackthorn City Gym Leader,Gyarados,Dragonite,Kingdra,Come on! You've got to get tougher than this!,I lost? I don't believe it. There must be some mistake... ...You can brag about it. Because you beat me!
+23,Will,Johto,Elite Four,Xatu,Espeon,Slowking,That decided it.,"Even though I was defeated, I won't change my course. I will continue battling until I stand above all Trainers! Now move on and experience the true ferocity of the Elite Four."
+24,Koga,Johto,Elite Four,Muk,Ariados,Crobat,It would be better for you to try at another time.,"I subjected you to everything I could muster. But my efforts failed. I must hone my skills. Go on to the next room, and put your abilities to the test!"
+25,Bruno,Johto,Elite Four,Hitmonchan,Hitmontop,Machamp,You must have realized the extent of our power.,"Having lost, I have no right to say anything? Go face your next challenge!"
+26,Karen,Johto,Elite Four,Tyranitar,Houndoom,Umbreon,"Well, that was relatively entertaining.",Strong Pokémon. Weak Pokémon. That is only the selfish perception of people. Truly skilled Trainers should try to win with the Pokémon they love best. I like your style. You understand what's important.
+27,Lance,Johto,Champion,Aerodactyl,Gyarados,Dragonite,Hmph? Worthless!,...It's over.
+100,Adam,Dev,Game Dev,Raichu,Charizard,Espeon,It was brave of you to challenge this game's creater.,You can't defeat me! I made this game!
+999,Missingno,,???,,,,???,???

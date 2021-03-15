@@ -1,0 +1,136 @@
+Number,Name,Type,Category,PP,Power,Accuracy,Stat,Stat Chance,Amount,Target,Recoil,Priority,Turns,Critical,Status,Status Chance,Flinch,Other,Description
+1,Absorb,Grass,Special,15,40,100,,,,,0,0,1,0,,,,1,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target. 
+2,Acid,Poison,Special,30,40,100,Sp Defence,10,-1,Foe,0,0,1,0,,,,,Opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats. 
+3,Acid Armor,Poison,Status,20,-,-,Defence,-,2,User,0,0,1,0,,,,,"The user alters its cellular structure to liquefy itself, sharply raising its Defense stat. "
+4,Acrobatics,Flying,Physical,15,55,100,,,,,0,0,1,0,,,,,The user nimbly strikes the target.
+5,Agility,Psychic,Status,30,-,-,Speed,-,2,User,0,0,1,0,,,,,The user relaxes and lightens its body to move faster. This sharply raises the Speed stat. 
+6,Air Slash,Flying,Special,15,75,95,,,,,0,0,1,0,,,30,,The user attacks with a blade of air that slices even the sky. This may also make the target flinch. 
+7,Ancient Power,Rock,Special,5,60,100,"Attack, Defence, Sp Attack, Sp Defence, Speed",10,1,User,0,0,1,0,,,,,The user attacks with a prehistoric power. It may also raise all the user's stats at once. 
+8,Astonish,Ghost,Physical,15,30,100,,,,,0,0,1,0,,,30,,The user attacks the target while shouting in a startling fashion. This may also make the target flinch. 
+9,Aurora Beam,Ice,Special,20,65,100,Attack,33,-1,Foe,0,0,1,0,,,,,The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat. 
+10,Bite,Dark,Physical,25,60,100,,,,,0,0,1,0,,,30,,The target is bitten with viciously sharp fangs. This may also make the target flinch. 
+11,Blizzard,Ice,Special,5,110,70,,,,,0,0,1,0,FRZ,10,,,A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen. 
+12,Body Slam,Normal,Physical,15,85,100,,,,,0,0,1,0,PAR,30,,,The user drops onto the target with its full body weight. This may also leave the target with paralysis. 
+13,Bone Club,Ground,Physical,20,65,85,,,,,0,0,1,0,,,10,,The user clubs the target with a bone. This may also make the target flinch. 
+14,Brick Break,Fighting,Physical,15,75,100,,,,,0,0,1,0,,,,,The user attacks with a swift chop.
+15,Bubble,Water,Special,30,40,100,Speed,33,-1,Foe,0,0,1,0,,,,,A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat. 
+16,Bubble Beam,Water,Special,20,65,100,Speed,33,-1,Foe,0,0,1,0,,,,,A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat. 
+17,Bug Bite,Bug,Physical,20,60,100,,,,,0,0,1,0,,,,,The user bites the target.
+18,Bug Buzz,Bug,Special,10,90,100,Sp Defence,10,-1,Foe,0,0,1,0,,,,,The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat. 
+19,Calm Mind,Psychic,Status,20,-,-,"Sp Attack, Sp Defence",-,1,User,0,0,1,0,,,,,The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats. 
+20,Charm,Fairy,Status,20,-,100,Attack,-,-2,Foe,0,0,1,0,,,,,"The user gazes at the target rather charmingly, making it less wary. This harshly lowers its Attack stat. "
+21,Confuse Ray,Ghost,Status,10,-,100,,,,,0,0,1,0,CON,-,,,The target is exposed to a sinister ray that triggers confusion. 
+22,Confusion,Psychic,Special,25,50,100,,,,,0,0,1,0,CON,10,,,The target is hit by a weak telekinetic force. This may also confuse the target. 
+23,Counter,Fighting,Physical,20,-,100,,,,,0,-5,1,0,,,,1,"A retaliation move that counters any physical attack, inflicting double the damage taken. "
+24,Crabhammer,Water,Physical,10,100,90,,,,,0,0,1,1,,,,,The target is hammered with a large pincer. Critical hits land more easily. 
+25,Cross Poison,Poison,Physical,20,70,100,,,,,0,0,1,1,PSN,10,,,A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily. 
+26,Crunch,Dark,Physical,15,80,100,Sp Defence,20,-1,Foe,0,0,1,0,,,,,The user crunches up the target with sharp fangs. This may also lower the target's Defense stat. 
+27,Dark Pulse,Dark,Special,15,80,100,,,,,0,0,1,0,,,20,,The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch. 
+28,Dazzling Gleam,Fairy,Special,10,80,100,,,,,0,0,1,0,,,,,The user damages opposing Pokémon by emitting a powerful flash. 
+29,Defence Curl,Normal,Status,40,-,-,Defence,-,1,User,0,0,1,0,,,,,The user curls up to conceal weak spots and raise its Defense stat. 
+30,Discharge,Electric,Special,15,80,100,,,,,0,0,1,0,PAR,30,,,The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis. 
+31,Double-Edge,Normal,Physical,15,120,100,,,,,0.33,0,1,0,,,,,"A reckless, life-risking tackle. This also damages the user quite a lot. "
+32,Double Team,Normal,Status,15,-,-,Evasion,-,1,User,0,0,1,0,,,,,"By moving rapidly, the user makes illusory copies of itself to raise its evasiveness. "
+33,Dragon Pulse,Dragon,Special,10,85,100,,,,,0,0,1,0,,,,,The target is attacked with a shock wave generated by the user's gaping mouth. 
+34,Drill Peck,Flying,Physical,20,80,100,,,,,0,0,1,0,,,,,A corkscrewing attack with a sharp beak acting as a drill. 
+35,Earthquake,Ground,Physical,10,100,100,,,,,0,0,1,0,,,,,The user sets off an earthquake that strikes every Pokémon around it. 
+36,Egg Bomb,Normal,Physical,10,100,75,,,,,0,0,1,0,,,,,A large egg is hurled at the target with maximum force to inflict damage. 
+37,Ember,Fire,Special,25,40,100,,,,,0,0,1,0,BRN,10,,,The target is attacked with small flames. This may also leave the target with a burn. 
+38,Energy Ball,Grass,Special,10,90,100,Sp Defence,10,-1,Foe,0,0,1,0,,,,,The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat. 
+39,Extrasensory,Psychic,Special,20,80,100,,,,,0,0,1,0,,,10,,"The user attacks with an odd, unseeable power. This may also make the target flinch. "
+40,Fairy Wind,Fairy,Special,30,40,100,,,,,0,0,1,0,,,,,The user stirs up a fairy wind and strikes the target with it. 
+41,Feint Attack,Dark,Physical,20,60,-,,,,,0,0,1,0,,,,,"The user approaches the target disarmingly, then throws a sucker punch. This attack never misses. "
+42,Fire Blast,Fire,Special,5,110,85,,,,,0,0,1,0,BRN,30,,,The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn. 
+43,Fire Punch,Fire,Physical,15,75,100,,,,,0,0,1,0,BRN,10,,,The target is punched with a fiery fist. This may also leave the target with a burn. 
+44,Flamethrower,Fire,Special,15,90,100,,,,,0,0,1,0,BRN,10,,,The target is scorched with an intense blast of fire. This may also leave the target with a burn. 
+45,Flash Cannon,Steel,Special,10,80,100,Sp Defence,10,-1,Foe,0,0,1,0,,,,,The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat. 
+46,Growl,Normal,Status,40,-,100,Attack,-,-1,Foe,0,0,1,0,,,,,"The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat. "
+47,Growth,Normal,Status,20,-,-,Sp Attack,-,1,User,0,0,1,0,,,,,"The user's body grows all at once, raising the Attack and Sp. Atk stats. "
+48,Gust,Flying,Special,35,40,100,,,,,0,0,1,0,,,,,A gust of wind is whipped up by wings and launched at the target to inflict damage. 
+49,Harden,Normal,Status,30,-,-,Defence,-,1,User,0,0,1,0,,,,,The user stiffens all the muscles in its body to raise its Defense stat. 
+50,Headbutt,Normal,Physical,15,70,100,,,,,0,0,1,0,,,30,,The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch. 
+51,Hidden Power,Normal,Special,15,60,100,,,,,0,0,1,0,,,,1,A unique attack that varies in type everytime it is used. 
+52,Horn Attack,Normal,Physical,25,65,100,,,,,0,0,1,0,,,,,The target is jabbed with a sharply pointed horn to inflict damage. 
+53,Hydro Pump,Water,Special,5,110,80,,,,,0,0,1,0,,,,,The target is blasted by a huge volume of water launched under great pressure. 
+54,Hyper Fang,Normal,Physical,15,80,90,,,,,0,0,1,0,,,10,,The user bites hard on the target with its sharp front fangs. This may also make the target flinch. 
+55,Hyper Voice,Normal,Special,10,90,100,,,,,0,0,1,0,,,,,The user lets loose a horribly echoing shout with the power to inflict damage. 
+56,Ice Beam,Ice,Special,10,90,100,,,,,0,0,1,0,FRZ,10,,,The target is struck with an icy-cold beam of energy. This may also leave the target frozen. 
+57,Ice Punch,Ice,Physical,15,75,100,,,,,0,0,1,0,FRZ,10,,,The target is punched with an icy fist. This may also leave the target frozen. 
+58,Icy Wind,Ice,Special,15,55,95,Speed,99,-1,Foe,0,0,1,0,,,,,The user attacks with a gust of chilled air. This also lowers the opposing Pokémon's Speed stats. 
+59,Iron Defence,Steel,Status,15,-,-,Defence,-,2,User,0,0,1,0,,,,,"The user hardens its body's surface like iron, sharply raising its Defense stat. "
+60,Iron Tail,Steel,Physical,15,100,75,Defence,30,-1,Foe,0,0,1,0,,,,,The target is slammed with a steel-hard tail. This may also lower the target's Defense stat. 
+61,Jump Kick,Fighting,Physical,10,100,95,,,,,0,0,1,0,,,,,"The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself. "
+62,Karate Chop,Fighting,Physical,25,50,100,,,,,0,0,1,1,,,,,The target is attacked with a sharp chop. Critical hits land more easily. 
+63,Leaf Blade,Grass,Physical,15,90,100,,,,,0,0,1,1,,,,,The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily. 
+64,Leaf Storm,Grass,Special,5,130,90,Sp Attack,-,-2,User,0,0,1,0,,,,,The user whips up a storm of leaves around the target. The attack's recoil harshly lowers the user's Sp. Atk stat. 
+65,Leer,Normal,Status,30,-,100,Defence,-,-1,Foe,0,0,1,0,,,,,The user gives opposing Pokémon an intimidating leer that lowers the Defense stat. 
+66,Lick,Ghost,Physical,30,30,100,,,,,0,0,1,0,PAR,30,,,"The target is licked with a long tongue, causing damage. This may also leave the target with paralysis. "
+67,Low Kick,Fighting,Physical,20,50,90,,,,,0,0,1,0,,,30,,A powerful low kick that makes the target fall over. This may also make the target flinch.
+68,Meditate,Psychic,Status,40,-,-,Attack,-,1,User,0,0,1,0,,,,,The user meditates to awaken the power deep within its body and raise its Attack stat. 
+69,Mega Kick,Normal,Physical,5,120,75,,,,,0,0,1,0,,,,,The target is attacked by a kick launched with muscle-packed power. 
+70,Mega Punch,Normal,Physical,20,80,85,,,,,0,0,1,0,,,,,The target is slugged by a punch thrown with muscle-packed power. 
+71,Metal Claw,Steel,Physical,35,50,95,Attack,10,1,User,0,0,1,0,,,,,The target is raked with steel claws. This may also raise the user's Attack stat. 
+72,Metronome,Normal,Status,10,-,-,,,,,0,0,1,0,,,,1,The user waggles a finger and stimulates its brain into randomly using nearly any move. 
+73,Mirror Coat,Psychic,Special,20,-,100,,,,,0,-5,1,0,,,,1,"A retaliation move that counters any special attack, inflicting double the damage taken. "
+74,Moonblast,Fairy,Special,15,95,100,Sp Attack,30,-1,Foe,0,0,1,0,,,,,"Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat. "
+75,Muddy Water,Water,Special,10,90,85,Accuracy,30,-1,Foe,0,0,1,0,,,,,The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy. 
+76,Outrage,Dragon,Physical,10,120,100,,,,,0,0,3,0,,,,1,The user rampages and attacks for two turns. The user then becomes confused. 
+77,Pay Day,Normal,Physical,20,40,100,,,,,0,0,1,0,,,,,Numerous coins are hurled at the target to inflict damage.
+78,Peck,Flying,Physical,35,35,100,,,,,0,0,1,0,,,,,The target is jabbed with a sharply pointed beak or horn. 
+79,Petal Blizzard,Grass,Physical,15,90,100,,,,,0,0,1,0,,,,,The user stirs up a violent petal blizzard and attacks everything around it. 
+80,Petal Dance,Grass,Special,10,120,100,,,,,0,0,2,0,,,,1,The user attacks the target by scattering petals for two turns. The user then becomes confused. 
+81,Play Rough,Fairy,Physical,10,90,90,Attack,10,-1,Foe,0,0,1,0,,,,,The user plays rough with the target and attacks it. This may also lower the target's Attack stat. 
+82,Poison Jab,Poison,Physical,20,80,100,,,,,0,0,1,0,PSN,30,,,The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target. 
+83,Poison Sting,Poison,Physical,35,15,100,,,,,0,0,1,0,PSN,20,,,The user stabs the target with a poisonous stinger. This may also poison the target. 
+84,Pound,Normal,Physical,35,40,100,,,,,0,0,1,0,,,,,"The target is physically pounded with a long tail, a foreleg, or the like. "
+85,Powder Snow,Ice,Special,25,40,100,,,,,0,0,1,0,FRZ,10,,,The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pokemon. 
+86,Power Whip,Grass,Physical,10,120,85,,,,,0,0,1,0,,,,,"The user violently whirls its vines, tentacles, or the like to harshly lash the target. "
+87,Present,Normal,Physical,15,-,90,,,,,0,0,1,0,,,,1,"The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however. "
+88,Psybeam,Psychic,Special,20,65,100,,,,,0,0,1,0,CON,10,,,The target is attacked with a peculiar ray. This may also leave the target confused. 
+89,Psychic,Psychic,Special,10,90,100,Sp Defence,10,-1,Foe,0,0,1,0,,,,,The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat. 
+90,Pursuit,Dark,Physical,20,40,100,,,,,0,0,1,0,,,,,The target is hit by a dark force.
+91,Quick Attack,Normal,Physical,30,40,100,,,,,0,1,1,0,,,,,The user lunges at the target at a speed that makes it almost invisible. This move always goes first. 
+92,Razor Leaf,Grass,Physical,25,55,95,,,,,0,0,1,1,,,,,Sharp-edged leaves are launched to slash at the opposing Pokémon. Critical hits land more easily. 
+93,Recover,Normal,Status,10,-,-,,,,,0,0,1,0,,,,1,"Restoring its own cells, the user restores its own HP by half of its max HP. "
+94,Rock Throw,Rock,Physical,15,50,90,,,,,0,0,1,0,,,,,The user picks up and throws a small rock at the target to attack. 
+95,Rolling Kick,Fighting,Physical,15,60,85,,,,,0,0,1,0,,,30,,"The user lashes out with a quick, spinning kick. This may also make the target flinch. "
+96,Rollout,Rock,Physical,20,30,90,,,,,0,0,5,0,,,,1,The user continually rolls into the target over five turns. It becomes more powerful each time it hits. 
+97,Sand Attack,Ground,Status,15,-,100,Accuracy,-,-1,Foe,0,0,1,0,,,,,"Sand is hurled in the target's face, reducing the target's accuracy. "
+98,Scratch,Normal,Physical,35,40,100,,,,,0,0,1,0,,,,,"Hard, pointed, sharp claws rake the target to inflict damage. "
+99,Screech,Normal,Status,40,-,85,Defence,-,-2,Foe,0,0,1,0,,,,,An earsplitting screech harshly lowers the target's Defense stat. 
+100,Seed Bomb,Grass,Physical,15,80,100,,,,,0,0,1,0,,,,,The user slams a barrage of hard-shelled seeds down on the target from above. 
+101,Shadow Ball,Ghost,Special,15,80,100,Sp Defence,20,-1,Foe,0,0,1,0,,,,,The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat. 
+102,Sketch,Normal,Status,1,-,-,,,,,0,0,1,0,,,,1,"It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears. "
+103,Slam,Normal,Physical,20,80,75,,,,,0,0,1,0,,,,,"The target is slammed with a long tail, vines, or the like to inflict damage. "
+104,Slash,Normal,Physical,20,70,100,,,,,0,0,1,1,,,,,The target is attacked with a slash of claws or blades. Critical hits land more easily. 
+105,Sludge,Poison,Special,20,65,100,,,,,0,0,1,0,PSN,40,,,Unsanitary sludge is hurled at the target. This may also poison the target. 
+106,Sludge Bomb,Poison,Special,10,90,100,,,,,0,0,1,0,PSN,30,,,The user attacks by hurling filthy sludge at the foe. It may also poison the target.
+107,Smog,Poison,Special,20,30,70,,,,,0,0,1,0,PSN,40,,,The target is attacked with a discharge of filthy gases. This may also poison the target. 
+108,Spark,Electric,Physical,20,65,100,,,,,0,0,1,0,PAR,30,,,The user throws an electrically charged tackle at the target. This may also leave the target with paralysis. 
+109,Steel Wing,Steel,Physical,25,70,90,Defence,10,1,User,0,0,1,0,,,,,The target is hit with wings of steel. This may also raise the user's Defense stat. 
+110,Stomp,Normal,Physical,20,65,100,,,,,0,0,1,0,,,30,,The target is stomped with a big foot. This may also make the target flinch. 
+111,Stone Edge,Rock,Physical,5,100,80,,,,,0,0,1,1,,,,,The user stabs the target from below with sharpened stones. Critical hits land more easily. 
+112,String Shot,Bug,Status,40,-,95,Speed,-,-1,Foe,0,0,1,0,,,,,The opposing Pokémon are bound with silk blown from the user's mouth that harshly lowers the Speed stat. 
+113,Struggle,,Physical,1,50,-,,,,,0.5,0,1,0,,,,,This attack is used in desperation only if the user has no PP. It also damages the user a little. 
+114,Sucker Punch,Dark,Physical,5,70,100,,,,,0,1,1,0,,,,1,This move enables the user to attack first. This move fails if the target is not readying an attack. 
+115,Swift,Normal,Special,20,60,-,,,,,0,0,1,0,,,,,Star-shaped rays are shot at the opposing Pokémon. This attack never misses. 
+116,Swords Dance,Normal,Status,20,-,-,Attack,-,2,User,0,0,1,0,,,,,A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat. 
+117,Tackle,Normal,Physical,35,40,100,,,,,0,0,1,0,,,,,A physical attack in which the user charges and slams into the target with its whole body. 
+118,Tail Whip,Normal,Status,20,-,100,Defence,-,-1,Foe,0,0,1,0,,,,,"The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat. "
+119,Take Down,Normal,Physical,20,90,85,,,,,0.25,0,1,0,,,,,"A reckless, full-body charge attack for slamming into the target. This also damages the user a little. "
+120,Thunder,Electric,Special,10,110,70,,,,,0,0,1,0,PAR,10,,,A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis. 
+121,Thunder Punch,Electric,Physical,15,75,100,,,,,0,0,1,0,PAR,10,,,The target is punched with an electrified fist. This may also leave the target with paralysis. 
+122,Thunder Shock,Electric,Special,30,40,100,,,,,0,0,1,0,PAR,10,,,A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis. 
+123,Thunder Wave,Electric,Status,20,-,90,,,,,0,0,1,0,PAR,-,,,The user launches a weak jolt of electricity that paralyzes the target. 
+124,Thunderbolt,Electric,Special,15,90,100,,,,,0,0,1,0,PAR,10,,,A strong electric blast crashes down on the target. This may also leave the target with paralysis. 
+125,Transform,Normal,Status,10,-,-,,,,,0,0,1,0,,,,1,The user transforms into a copy of the target right down to having the same move set. 
+126,Tri Attack,Normal,Special,10,80,100,,,,,0,0,1,0,,20,,1,"The user strikes with a simultaneous three-beam attack. May also burn, freeze, or paralyze the target. "
+127,Venoshock,Poison,Special,10,65,100,,,,,0,0,1,0,,,,1,The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned. 
+128,Vine Whip,Grass,Physical,25,45,100,,,,,0,0,1,0,,,,,"The target is struck with slender, whiplike vines to inflict damage. "
+129,Water Gun,Water,Special,25,40,100,,,,,0,0,1,0,,,,,The target is blasted with a forceful shot of water. 
+130,Water Pulse,Water,Special,20,60,100,,,,,0,0,1,0,CON,20,,,The user attacks the target with a pulsing blast of water. This may also confuse the target. 
+131,Waterfall,Water,Physical,15,80,100,,,,,0,0,1,0,,,20,,The user charges at the target and may make it flinch. 
+132,Wing Attack,Flying,Physical,35,60,100,,,,,0,0,1,0,,,,,"The target is struck with large, imposing wings spread wide to inflict damage. "
+133,Withdraw,Water,Status,40,-,-,Defence,-,1,User,0,0,1,0,,,,,"The user withdraws its body into its hard shell, raising its Defense stat. "
+134,X-Scissor,Bug,Physical,15,80,100,,,,,0,0,1,0,,,,,The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors. 
+135,Zen Headbutt,Psychic,Physical,15,80,90,,,,,0,0,1,0,,,20,,The user focuses its willpower to its head and attacks the target. This may also make the target flinch. 
