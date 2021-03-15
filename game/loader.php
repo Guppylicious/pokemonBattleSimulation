@@ -1,4 +1,5 @@
 <?php
+
 // --- Get the data from csv files when required.
 
 require 'vendor/autoload.php';
@@ -66,8 +67,8 @@ class Loader
         return $this->playerTeam;
     }
 
-    // --- get computer team
-    public function getComputerTeam($computer)
+    // --- create computer team
+    public function createComputerTeam($computer)
     {
         for ($i = 1; $i <= 3; $i++) {
             $pokemon = $computer['Pokemon ' . $i];

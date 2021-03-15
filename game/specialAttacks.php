@@ -1,14 +1,14 @@
 <?php
 // --- All attacks that have unique effects
 
-class SpecialAttacks extends Attack
+class SpecialAttacks
 {
     public function __construct()
     {
         $this->loader = new Loader();
         $this->standbyPhase = new StandbyPhase();
         $this->damage = new Damage();
-        $this->status = new Status();
+        $this->status = new Status_Controller();
         $this->moves = $this->loader->getData('moves');
         $this->types = $this->loader->getData('types');
     }
@@ -20,14 +20,7 @@ class SpecialAttacks extends Attack
     }
 
     // --- handler for damage attacks that have unique effects
-    public function damageOther(&$attacker, &$attack, &$defender)
-    {
-        $function = $this->getAttack($attack['Name']);
-        $this->$function($attacker, $attack, $defender);
-    }
-
-    // --- handler for status effects that have unique effects
-    public function statusOther(&$attacker, &$attack, &$defender)
+    public function specialAttack(&$attacker, &$attack, &$defender)
     {
         $function = $this->getAttack($attack['Name']);
         $this->$function($attacker, $attack, $defender);

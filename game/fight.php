@@ -6,7 +6,7 @@ class Fight
     public function __construct()
     {
         $this->standbyPhase = new StandbyPhase();
-        $this->attackPhase = new AttackPhase();
+        $this->attackPhase = new AttackPhase_Controller(new Stat());
     }
 
     public function start($player, $playerTeam, $computer, $computerTeam)

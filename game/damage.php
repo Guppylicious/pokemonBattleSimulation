@@ -7,7 +7,7 @@ class Damage
     {
         $this->loader = new Loader();
         $this->stat = new Stat();
-        $this->status = new Status();
+        $this->status = new Status_Controller();
         $this->moves = $this->loader->getData('moves');
         $this->types = $this->loader->getData('types');
     }

@@ -16,11 +16,11 @@ class Menu
 
         switch ($menuOption) {
             case 1:
-                $battle = new SingleBattle();
-                $battle->start();
+                $battle = new SingleBattle_Controller();
+                $battle->show();
                 break;
             case 2:
-                $challenge = new ChallengeMode();
+                $challenge = new ChallengeMode_Controller();
                 $challenge->show();
                 break;
             case 3:
@@ -32,7 +32,7 @@ class Menu
                 $pokedex->show();
                 break;
             case 5:
-                $types = new Types();
+                $types = new Types_Controller();
                 $types->show();
                 break;
             case 6:
