@@ -9,4 +9,5 @@ return array(
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'League\\Csv\\' => array($vendorDir . '/league/csv/src'),
+    'Game\\' => array($baseDir . '/game'),
 );

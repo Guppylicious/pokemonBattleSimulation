@@ -1,0 +1,18 @@
+#!/usr/bin/php
+<?php
+
+if (php_sapi_name() !== 'cli') {
+    exit;
+}
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Game\Menu;
+
+echo "\n--- Welcome to the world of Pokémon! ---\n\n";
+
+$command = $argv[1];
+
+$options = array_slice($argv, 2);
+
+$menu = new Menu($command, $options);

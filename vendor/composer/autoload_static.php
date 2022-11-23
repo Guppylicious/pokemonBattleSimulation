@@ -21,6 +21,10 @@ class ComposerStaticInit9cc049dfb8c71d9259b6e909359aa2d9
         array (
             'League\\Csv\\' => 11,
         ),
+        'G' => 
+        array (
+            'Game\\' => 5,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -35,6 +39,10 @@ class ComposerStaticInit9cc049dfb8c71d9259b6e909359aa2d9
         'League\\Csv\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/csv/src',
+        ),
+        'Game\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/game',
         ),
     );
 
