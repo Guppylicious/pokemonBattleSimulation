@@ -1,12 +1,10 @@
 To play:
     Open a terminal from the game's directory.
-    Start the game with this simple command:
-        php pokemon.php
+    Run the following command:
+        ./start [--command]
 
-Menu:
-    Enter the number of the option you would like to choose.
-
-    1. Battle a trainer
+Commands:
+    --battle - Battle a trainer
 
         This is a single battle game where you can choose the trainer you would like to battle.
         Start by entering your name.
@@ -20,7 +18,7 @@ Menu:
 
         See if you can beat them all!
 
-    2. Take on a challenge
+    --challenge - Take on a challenge
 
         Challenge modes are the hardest challenges within the game.
         Start by entering your name.
@@ -37,7 +35,7 @@ Menu:
         If you think you have what it takes, take on the 'All' challenge which will make you face off against all of the best trainers in the world one after the other.
         From Kanto to Alola, you will face every Gym Leader, Elite Four member, Champion and more until you either crumple under their power or rise up as a true Pokémon Master.
 
-    3. View the Hall of Fame
+    --hallOfFame - View the Hall of Fame
 
         The Hall of Fame is the highest reward in the game.
         Everytime you defeat a challenge, you are admitted to the Hall Of Fame.
@@ -47,12 +45,14 @@ Menu:
             The region of the challenge they defeated (or 'All' if they bested the hardest challenge).
             The date and time of their victory.
 
-    4. View the Pokédex
+    --pokedex [pokedex] || [pokemon no.] || [pokemon name] - View the Pokédex
 
         The Pokédex is an encyclopedia of all Pokémon.
         The Pokédex will allow you to view all of the Pokémon that have been discovered.
-        After choosing this option a list of regional Pokédex will be displayed.
-        Select any one from the list to view the Pokémon of that region.
+
+        By entering a Pokédex region, you can view all the Pokémon that are within it.
+
+        By entering a Pokémon's number or name, you can view that specific Pokémon.
             From here you can research a Pokémon further by entering their number or name.
             Doing so will show you the following data on a Pokémon:
                 Name
@@ -73,9 +73,7 @@ Menu:
                     Accuracy
                     Description
 
-        You can exit out of these options and return to the main menu by entering 'x'.
-
-    5. Learn type advantages
+    --types - Learn type advantages
 
         Type advantages are one of the most important aspects of a Pokémon battle.
         Ensuring that you have an advantage over your opponents Pokémon is a great way to ensure your victory.
@@ -84,6 +82,3 @@ Menu:
         However, there are Pokémon with special dual typing where they aren't just a single type.
         This means that a Pokémon may be both weak and strong against a specific type.
         Make sure you are careful when facing a Pokémon with a dual type, as things might not turn out how you expect.
-
-    6. Exit
-        Exits the game.
