@@ -30,12 +30,30 @@ class StandbyPhase extends Loader
             $healthBar .= "=";
         }
 
-        $mask = "\n\t[" . $color . "%-50s\e[0m] %d/%d\n";
+        $mask = "\n\t[" . $color . "%-50s\e[0m] %d/%d \t%s\n";
 
         echo "\n\t" . $name . "'s " . $pokemon['Name'] . ": ";
+
         if ($pokemon['Status']) {
             echo $this->statusColor($pokemon['Status']) . $pokemon['Status'] . "\e[0m";
         }
-        printf($mask, $healthBar, $pokemon['HP Left'], $pokemon['HP']);
+
+        printf($mask, $healthBar, $pokemon['HP Left'], $pokemon['HP'], $this->printStatMods($pokemon));
+    }
+
+    public function printStatMods($pokemon) {
+        $stats = array('ATT' => 'Attack', 'DEF' => 'Defence', 'SPA' => 'Sp Attack', 'SPD' => 'Sp Defence', 'SPD' => 'Speed', 'ACC' => 'Accuracy', 'EVA' => 'Evasion');
+
+        $statMods = "";
+
+        foreach ($stats as $shorthand => $stat) {
+            if ($pokemon[$stat . ' Mod'] > 0) {
+                $statMods .= "\t" . $shorthand . " +" . $pokemon[$stat . ' Mod'];
+            } elseif ($pokemon[$stat . ' Mod'] < 0) {
+                $statMods .= "\t" . $shorthand . " " . $pokemon[$stat . ' Mod'];
+            }
+        }
+
+        return $statMods;
     }
 }
