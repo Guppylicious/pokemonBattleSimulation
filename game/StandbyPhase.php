@@ -32,10 +32,21 @@ class StandbyPhase extends Loader
 
         $mask = "\n\t[" . $color . "%-50s\e[0m] %d/%d \t%s\n";
 
-        echo "\n\t" . $name . "'s " . $pokemon['Name'] . ": ";
+        echo "\n\t" . $name . "'s " . $pokemon['Name'] . ": [";
+
+        $typeMask = Types::typeColor($pokemon['Type 1']) . "%s\e[0m";
+
+        printf($typeMask, "" . $pokemon['Type 1']);
+
+        if ($pokemon['Type 2']) {
+            $typeMask = "%1s" . Types::typeColor($pokemon['Type 2']) . "%s\e[0m";
+            printf($typeMask, "/", $pokemon['Type 2']);
+        }
+
+        echo "]";
 
         if ($pokemon['Status']) {
-            echo $this->statusColor($pokemon['Status']) . $pokemon['Status'] . "\e[0m";
+            echo " " . Status::statusColor($pokemon['Status']) . $pokemon['Status'] . "\e[0m";
         }
 
         printf($mask, $healthBar, $pokemon['HP Left'], $pokemon['HP'], $this->printStatMods($pokemon));
